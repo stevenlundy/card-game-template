@@ -1,0 +1,142 @@
+	body {
+	    background-color: darkgreen;
+	}
+	.card {
+	    height: 8.85em;
+	    width: 6.4em;
+	    border: 1px solid #695d39;
+	    border-radius: .5em;
+	    /* omitted -moz- and -webkit- hacks */
+	    box-shadow: -.15em .25em .5em -.25em #111;
+	    /* omitted -moz- and -webkit- hacks */
+	    font-family:'Georgia', serif;
+	    line-height: 1em;
+	    padding-top: .25em;
+	    padding-left: .1em;
+	    letter-spacing: -.2em;
+	    background: #fff url('card-set.png') no-repeat;
+	    background-size: 1300% 400%;
+	    display: inline-block;
+	    margin-left: -5.8em;
+	    margin-top: 1em;
+	}
+	.card:first-child {
+	    margin-left: 0;
+	}
+	.card:hover {
+	    position: relative;
+	    z-index: 1;
+	}
+	.H, .D {
+	    color: #890000;
+	}
+	.S, .C {
+	    color: #000;
+	}
+	.C {
+	    background-position-y: 0%;
+	}
+	.D {
+	    background-position-y: 33.333%;
+	}
+	.S {
+	    background-position-y: 66.667%;
+	}
+	.H {
+	    background-position-y: 100%;
+	}
+	.rankA {
+	    background-position-x: 0%;
+	}
+	.rank2 {
+	    background-position-x: 8.333%;
+	}
+	.rank3 {
+	    background-position-x: 16.667%;
+	}
+	.rank4 {
+	    background-position-x: 25%;
+	}
+	.rank5 {
+	    background-position-x: 33.333%;
+	}
+	.rank6 {
+	    background-position-x: 41.667%;
+	}
+	.rank7 {
+	    background-position-x: 50%;
+	}
+	.rank8 {
+	    background-position-x: 58.333%;
+	}
+	.rank9 {
+	    background-position-x: 66.667%;
+	}
+	.rank10 {
+	    background-position-x: 75%;
+	}
+	.rankJ {
+	    background-position-x: 83.333%;
+	}
+	.rankQ {
+	    background-position-x: 91.667%;
+	}
+	.rankK {
+	    background-position-x: 100%;
+	}
+	.rankA::before {
+	    content:"A";
+	}
+	.rank2::before {
+	    content:"2";
+	}
+	.rank3::before {
+	    content:"3";
+	}
+	.rank4::before {
+	    content:"4";
+	}
+	.rank5::before {
+	    content:"5";
+	}
+	.rank6::before {
+	    content:"6";
+	}
+	.rank7::before {
+	    content:"7";
+	}
+	.rank8::before {
+	    content:"8";
+	}
+	.rank9::before {
+	    content:"9";
+	}
+	.rank10::before {
+	    content:"10";
+	}
+	.rankJ::before {
+	    content:"J";
+	}
+	.rankQ::before {
+	    content:"Q";
+	}
+	.rankK::before {
+	    content:"K";
+	}
+	.C::after {
+	    content:"\a \2663";
+	    white-space: pre;
+	}
+	.D::after {
+	    content:"\a \2666";
+	    white-space: pre;
+	}
+	.H::after {
+	    content:"\a \2665";
+	    white-space: pre;
+	}
+	.S::after {
+	    content:"\a \2660";
+	    white-space: pre;
+	}
+	
